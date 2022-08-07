@@ -4,7 +4,6 @@ import pyautogui
 import keyboard
 
 while True:
-    key = 'l'
     if keyboard.is_pressed('f'):
         im = pyautogui.screenshot(region=(955, 535, 10, 10)) # (x, y, width, height) change in case it doesn't match
         time.sleep(0.3)
